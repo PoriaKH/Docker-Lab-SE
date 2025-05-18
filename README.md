@@ -1,4 +1,5 @@
-# Docker-Lab-SE
+#  Pouria Khajepour (400171392) - Seyyed Mohammad Sajjadian (98170862)
+
 
 ## 1. FILE STRUCTURE DESCRIPTION:
 - Dockerfile: Builds the Django app image by installing Python dependencies and copying code.
