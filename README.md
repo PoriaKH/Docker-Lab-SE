@@ -1,7 +1,6 @@
 # Docker-Lab-SE
 
-##
-1. FILE STRUCTURE DESCRIPTION:
+## 1. FILE STRUCTURE DESCRIPTION:
 - Dockerfile: Builds the Django app image by installing Python dependencies and copying code.
 - docker-compose.yml: Defines two services — 'web' for Django and 'db' for PostgreSQL. Maps port 8000 for web access and links Django to Postgres.
 - requirements.txt: Lists Python dependencies including Django and psycopg2.
