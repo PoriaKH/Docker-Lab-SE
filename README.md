@@ -32,12 +32,12 @@ docker-compose exec web python manage.py createsuperuser
 
 ## 4. تعاملات با داکر:
 - نشان دادن imageها و کانتینر‌ها:
-  Command: docker ps
-  Output: <list of running containers>
+  - Command: docker ps
+  - Output: <list of running containers>
 
 - اجرای دستور در کانتینر:
-  Command: docker exec -it <web_container_id> ls /
-  Output: <list of root directory files>
+  - Command: docker exec -it <web_container_id> ls /
+  - Output: <list of root directory files>
 
 ## 5. سوالات:
 - فایل Dockerfile مشخص می‌کند که چگونه یک ایمیج ساخته شود, این فایل شامل ایمیج پایه، دایرکتوری کاری، پکیج‌های نصب‌شده و فایل‌های کپی‌شده است.
