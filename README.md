@@ -2,10 +2,9 @@
 
 
 ## 1. ساختار فایل‌ها:
-- Dockerfile: ایمیج Django app را بیلد میکند با نصب dependency های پایتون و کپی کردن کد
-Builds the Django app image by installing Python dependencies and copying code.
-- docker-compose.yml: ۲ سرویس تعریف میکند یکی 'web' برای Django و دیگری 'db' برای PostgreSQL. و پورت ۸۰۰۰ را مپ میکند برای دسترسی web و Django را به postres لینک میکند.
-- requirements.txt: لیست dependencyها از جمله  Django و psycopg2.
+- داکرفایل: ایمیج Django app را بیلد میکند با نصب dependency های پایتون و کپی کردن کد.
+- یمل فایل: ۲ سرویس تعریف میکند یکی 'web' برای Django و دیگری 'db' برای PostgreSQL. و پورت ۸۰۰۰ را مپ میکند برای دسترسی web و Django را به postres لینک میکند.
+- نیازمندی‌ها: لیست dependencyها از جمله  Django و psycopg2.
 
 ## 2. دستورات:
 ```
